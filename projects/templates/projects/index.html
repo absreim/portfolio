@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Brook Li - Projects
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="/static/projects/style.css">
+{% endblock %}
+
+{% block body %}
+    <h1>Projects</h1>
+    <main>
+        <article>
+            <section>
+                <h2>Simmer</h2>
+                <img src="/static/projects/simmer.png">
+            </section>
+            <section>
+                <p>Save recipes from popular recipe sites for sharing and offline viewing. Get recommendations from
+                    users with similar tastes.</p>
+                <p>To save a recipe, navigate to the recipe page of any of 5 supported sites in Google Chrome and use
+                    the Chrome extension. Alteratively, one can enter the URL into the web application.</p>
+                <p>For offline viewing, one can save the web application as a desktop or mobile app. Previously visited
+                    pages are automatically cached.</p>
+                <a href="https://simmer.brook.li">Live site</a>
+                <a href="https://github.com/1902cs-indigo-oscar/Simmer">Github</a>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Absreim's Mafia</h2>
+                <img src="/static/projects/mafia.png">
+            </section>
+            <section>
+                <p>Multiplayer mafia party game implemented as a web application.</p>
+                <a href="https://mafia.brook.li">Live site</a>
+                <a href="https://github.com/absreim/mafia">Github</a>
+            </section>
+        </article>
+    </main>
+{% endblock %}
