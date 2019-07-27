@@ -23,5 +23,5 @@ urlpatterns = [
     path('projects/', include('projects.urls')),
     path('about/', include('about.urls')),
     path('articles/', include('articles.urls')),
-    #re_path(r'.*', views.redirect_about)
+    path('', views.redirect_about)
 ]

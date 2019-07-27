@@ -5,7 +5,8 @@
 {% endblock %}
 
 {% block head %}
-    <link rel="stylesheet" href="/static/projects/style.css">
+    {% load static %}
+    <link rel="stylesheet" href={% static "projects/style.css"%}>
 {% endblock %}
 
 {% block body %}
@@ -14,7 +15,7 @@
         <article>
             <section>
                 <h2>Simmer</h2>
-                <img src="/static/projects/simmer.png">
+                <img src={% static "projects/simmer.png" %}>
             </section>
             <section>
                 <p>Save recipes from popular recipe sites for sharing and offline viewing. Get recommendations from
@@ -30,7 +31,7 @@
         <article>
             <section>
                 <h2>Absreim's Mafia</h2>
-                <img src="/static/projects/mafia.png">
+                <img src={% static "projects/mafia.png" %}>
             </section>
             <section>
                 <p>Multiplayer mafia party game implemented as a web application.</p>

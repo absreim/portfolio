@@ -1,4 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
 nav {
     display: flex;
     flex-direction: row;
+}
+
+header, nav {
+    background-color: teal;
+}
+
+header {
+    color: beige;
+    font-size: larger;
+}
+
+nav {
+    color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+nav > a:not(:last-child) {
+    padding-right: 1em;
+}
+
+nav > a:visited {
+    color: lightgray;
+}
+
+nav > a:hover, nav > a:focus, nav > a:active {
+    color: white;
 }
