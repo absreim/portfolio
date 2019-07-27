@@ -7,12 +7,16 @@
         {% block head %}{% endblock %}
     </head>
     <body>
-        <header>Brook Li</header>
-        <nav>
-            <a href="/about/">About</a>
-            <a href="/projects/">Projects</a>
-            <a href="/articles/">Articles</a>
-        </nav>
-        {% block body %}Main page contents will go here{% endblock %}
+        <div id="nav-header-container">
+            <header>Brook Li</header>
+            <nav>
+                <a href="/about/" id="about-navlink">About</a>
+                <a href="/projects/" id="projects-navlink">Projects</a>
+                <a href="/articles/" id="articles-navlink">Articles</a>
+            </nav>
+        </div>
+        <div id="body-middle-container">
+            {% block body %}Main page contents will go here{% endblock %}
+        </div>
     </body>
 </html>

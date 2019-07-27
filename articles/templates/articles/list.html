@@ -4,6 +4,11 @@
     Brook Li - Articles
 {% endblock %}
 
+{% block head %}
+    {% load static %}
+    <link rel="stylesheet" href={% static "articles/style.css" %}>
+{% endblock %}
+
 {% block body %}
     <main>
         <h1>Articles List</h1>

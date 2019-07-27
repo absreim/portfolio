@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    margin: 0;
 }
 
 nav {
@@ -7,17 +8,19 @@ nav {
     flex-direction: row;
 }
 
-header, nav {
-    background-color: teal;
+#nav-header-container {
+    background-color: #2d39ab;
+    padding: 1em;
 }
 
 header {
-    color: beige;
+    color: white;
     font-size: larger;
+    margin-bottom: 1em;
 }
 
 nav {
-    color: lightgray;
+    color: #9ba8ff;
     display: flex;
     flex-direction: row;
 }
@@ -31,9 +34,18 @@ nav > a:not(:last-child) {
 }
 
 nav > a:visited {
-    color: lightgray;
+    color: inherit;
 }
 
 nav > a:hover, nav > a:focus, nav > a:active {
     color: white;
+}
+
+h1, h2 {
+    color: #5565ab;
+}
+
+#body-middle-container {
+    margin-left: 1em;
+    margin-right: 1em;
 }

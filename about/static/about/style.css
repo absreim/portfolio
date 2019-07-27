@@ -2,3 +2,15 @@ main {
     display: flex;
     flex-direction: row;
 }
+
+main > div {
+    padding-left: 1em;
+}
+
+#about-navlink {
+    color: beige;
+}
+
+#portrait {
+    width: 50%;
+}
