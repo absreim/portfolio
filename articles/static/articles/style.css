@@ -1,3 +1,8 @@
 #articles-navlink {
     color: beige;
 }
+
+.articles-list {
+    list-style-type: none;
+    padding-left: 0;
+}

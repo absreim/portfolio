@@ -19,6 +19,15 @@ header {
     margin-bottom: 1em;
 }
 
+main a {
+    text-decoration: none;
+    color: #1d24ab;
+}
+
+main a:hover, main a:focus, main a:active {
+    color: #000979;
+}
+
 nav {
     color: #9ba8ff;
     display: flex;
