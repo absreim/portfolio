@@ -35,15 +35,12 @@ nav {
 }
 
 nav > a {
+    color: inherit;
     text-decoration: none;
 }
 
 nav > a:not(:last-child) {
     padding-right: 1em;
-}
-
-nav > a:visited {
-    color: inherit;
 }
 
 nav > a:hover, nav > a:focus, nav > a:active {

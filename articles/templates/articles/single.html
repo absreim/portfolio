@@ -11,9 +11,8 @@
 
 {% block body %}
     <main>
-        <h1>Article</h1>
         {% if article %}
-            <h2>{{ article.name }}</h2>
+            <h1>{{ article.name }}</h1>
             <h3>{{ article.date }}</h3>
             {{ article.content | safe }}
         {% else %}
