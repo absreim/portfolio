@@ -24,7 +24,7 @@ main a:hover, main a:focus, main a:active {
 }
 
 nav {
-    color: #9ba8ff;
+    color: #bad6ff;
     display: flex;
     flex-direction: column;
 }
@@ -56,4 +56,18 @@ h1, h2 {
 #body-middle-container {
     margin-left: 1em;
     margin-right: 1em;
+}
+
+footer {
+    font-size: smaller;
+    color: #bad6ff;
+    background-color: #2d39ab;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:active, footer a:hover, footer a:focus {
+    color: white;
 }
