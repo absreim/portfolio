@@ -21,12 +21,28 @@
                 <p>Save recipes from popular recipe sites for sharing and offline viewing. Get recommendations from
                     users with similar tastes.</p>
                 <p>To save a recipe, navigate to the recipe page of any of 5 supported sites in Google Chrome and use
-                    the Chrome extension. Alteratively, one can enter the URL into the web application.</p>
+                    the Chrome extension. Alternatively, one can enter the URL into the web application.</p>
                 <p>For offline viewing, one can save the web application as a desktop or mobile app. Previously visited
                     pages are automatically cached.</p>
                 <ul>
                     <li><a href="https://simmer.brook.li">Live site</a></li>
-                    <li><a href="https://github.com/1902cs-indigo-oscar/Simmer">Github</a></li>
+                    <li><a href="https://github.com/1902cs-indigo-oscar/Simmer">Source</a></li>
+                </ul>
+            </section>
+        </article>
+        <article>
+            <section>
+                <img src={% static "projects/corsbank.png" %}>
+            </section>
+            <section>
+                <h2>CSRF Demo</h2>
+                <p>A project meant to demonstrate the CSRF security vulnerability consisting of a mock banking site,
+                    a mock attack site, and an accompanying article.</p>
+                <ul>
+                    <li><a href="https://corsbank.brook.li/">Mock Banking Site</a></li>
+                    <li><a href="http://evil.brook.li/">Mock Attack Site</a></li>
+                    <li><a href="/articles/1/">Article</a></li>
+                    <li><a href="https://github.com/absreim/csrf-demo">Source</a></li>
                 </ul>
             </section>
         </article>
@@ -39,9 +55,18 @@
                 <p>Multiplayer mafia party game implemented as a web application.</p>
                 <ul>
                     <li><a href="https://mafia.brook.li">Live site</a></li>
-                    <li><a href="https://github.com/absreim/mafia">Github</a></li>
+                    <li><a href="https://github.com/absreim/mafia">Source</a></li>
                 </ul>
             </section>
         </article>
     </main>
+{% endblock %}
+
+{% block footer %}
+    <footer>
+        <p>This portfolio site was a non-trivial creation in itself. The
+            <a href="https://github.com/absreim/portfolio">source</a>
+            is available on Github.
+        </p>
+    </footer>
 {% endblock %}
