@@ -1,6 +1,12 @@
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+@media(min-width: 600px){
+    main {
+        flex-direction: row;
+    }
 }
 
 main > div {
