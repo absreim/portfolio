@@ -12,12 +12,13 @@
 {% block body %}
     <h1>Projects</h1>
     <main>
+        <h2>Deployed</h2>
         <article>
             <section>
                 <img src={% static "projects/simmer.png" %}>
             </section>
             <section>
-                <h2>Simmer</h2>
+                <h3>Simmer</h3>
                 <p>Save recipes from popular recipe sites for sharing and offline viewing. Get recommendations from
                     users with similar tastes.</p>
                 <p>To save a recipe, navigate to the recipe page of any of 5 supported sites in Google Chrome and use
@@ -35,7 +36,7 @@
                 <img src={% static "projects/corsbank.png" %}>
             </section>
             <section>
-                <h2>CSRF Demo</h2>
+                <h3>CSRF Demo</h3>
                 <p>A project meant to demonstrate the CSRF security vulnerability consisting of a mock banking site,
                     a mock attack site, and an accompanying article.</p>
                 <ul>
@@ -51,12 +52,45 @@
                 <img src={% static "projects/mafia.png" %}>
             </section>
             <section>
-                <h2>Absreim's Mafia</h2>
+                <h3>Absreim's Mafia</h3>
                 <p>Multiplayer mafia party game implemented as a web application.</p>
                 <ul>
                     <li><a href="https://mafia.brook.li">Live site</a></li>
                     <li><a href="https://github.com/absreim/mafia">Source</a></li>
                 </ul>
+            </section>
+        </article>
+        <h2>In Progress</h2>
+        <article>
+            <section>
+                <h3>Cardboard Confluence</h3>
+                <p>Yet another Magic: The Gathering card organizer application.</p>
+                <p>Currently only a data pipeline for ingesting card data and a GraphQL API
+                    for retrieving a normalized form of the ingested data is completed.</p>
+                <a href="https://github.com/absreim/cardconf">Source</a>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h3>Loanshark</h3>
+                <p>An application for keeping track of items lent among friends.</p>
+                <p>Currently, only a functioning backend is completed.</p>
+                <a href="https://github.com/absreim/loanshark">Source</a>
+            </section>
+        </article>
+        <h2>Other</h2>
+        <article>
+            <section>
+                <h3>Dateutil</h3>
+                <p>I occasionally contribute to the open source Python module
+                    <a href="https://github.com/dateutil/dateutil/">dateutil</a>.
+                </p>
+                <p>I have made contributions to issues
+                    <a href="https://github.com/dateutil/dateutil/issues/652">652</a>
+                    and <a href="https://github.com/dateutil/dateutil/issues/523">523</a>,
+                    and am working on issue
+                    <a href="https://github.com/dateutil/dateutil/issues/923">923</a>.
+                </p>
             </section>
         </article>
     </main>
