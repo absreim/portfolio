@@ -24,3 +24,14 @@ main > div {
         width: 50%;
     }
 }
+
+#contact-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-list__service-icon {
+    width: 2em;
+    vertical-align: middle;
+    object-fit: contain;
+}
